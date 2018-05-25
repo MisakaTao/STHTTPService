@@ -1,11 +1,12 @@
 use_frameworks!
 
 target 'STHTTPService_Example' do
-  pod 'STHTTPService', :path => '../'
-
+    
+#  pod 'STHTTPService', :path => '../'
+  pod 'STHTTPService'
+  
   target 'STHTTPService_Tests' do
     inherit! :search_paths
-
     
   end
 end
