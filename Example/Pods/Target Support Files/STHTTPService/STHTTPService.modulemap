@@ -1,0 +1,6 @@
+framework module STHTTPService {
+  umbrella header "STHTTPService-umbrella.h"
+
+  export *
+  module * { export * }
+}
