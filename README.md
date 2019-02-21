@@ -22,7 +22,7 @@ pod 'STHTTPService'
 
 ## Author
 
-misakatao, shengtao.liu@ybzg.com
+misakatao, misakatao@yahoo.co.jp
 
 ## License
 
