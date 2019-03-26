@@ -24,21 +24,24 @@ PODS:
   - YYModel (1.0.4)
 
 DEPENDENCIES:
-  - STHTTPService
+  - STHTTPService (from `../`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - AFNetworking
-    - STHTTPService
     - YYCache
     - YYModel
 
+EXTERNAL SOURCES:
+  STHTTPService:
+    :path: "../"
+
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  STHTTPService: 3afd5e639d56c239370bfce6ec2064c9c8bf6d27
+  STHTTPService: f632886888db68a747e7acad43af48301681d886
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 559cab6e83801cead1c397c36fdc500f7db7d1f5
+PODFILE CHECKSUM: cc7b9a68537c573f9dc9cbb3f2150b0f7b25d4a1
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3
