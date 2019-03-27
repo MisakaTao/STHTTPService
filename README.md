@@ -1,9 +1,9 @@
-# STHTTPService
+# STHTTPServer
 
-[![CI Status](https://img.shields.io/travis/misakatao/STHTTPService.svg?style=flat)](https://travis-ci.org/misakatao/STHTTPService)
-[![Version](https://img.shields.io/cocoapods/v/STHTTPService.svg?style=flat)](https://cocoapods.org/pods/STHTTPService)
-[![License](https://img.shields.io/cocoapods/l/STHTTPService.svg?style=flat)](https://cocoapods.org/pods/STHTTPService)
-[![Platform](https://img.shields.io/cocoapods/p/STHTTPService.svg?style=flat)](https://cocoapods.org/pods/STHTTPService)
+[![CI Status](https://img.shields.io/travis/misakatao/STHTTPServer.svg?style=flat)](https://travis-ci.org/misakatao/STHTTPServer)
+[![Version](https://img.shields.io/cocoapods/v/STHTTPServer.svg?style=flat)](https://cocoapods.org/pods/STHTTPServer)
+[![License](https://img.shields.io/cocoapods/l/STHTTPServer.svg?style=flat)](https://cocoapods.org/pods/STHTTPServer)
+[![Platform](https://img.shields.io/cocoapods/p/STHTTPServer.svg?style=flat)](https://cocoapods.org/pods/STHTTPServer)
 
 ## Example
 
@@ -13,17 +13,17 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-STHTTPService is available through [CocoaPods](https://cocoapods.org). To install
+STHTTPServer is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'STHTTPService'
+pod 'STHTTPServer'
 ```
 
 ## Author
 
-misakatao, misakatao@yahoo.co.jp
+misakatao, misaka@tuya.com
 
 ## License
 
-STHTTPService is available under the MIT license. See the LICENSE file for more info.
+STHTTPServer is available under the MIT license. See the LICENSE file for more info.

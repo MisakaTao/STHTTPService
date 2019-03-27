@@ -1,11 +1,13 @@
+use_frameworks!
 
+platform :ios, '8.0'
 
-target 'STHTTPService_Example' do
-    
-  pod 'STHTTPService', :path => '../'
-  
-  target 'STHTTPService_Tests' do
+target 'STHTTPServer_Example' do
+  pod 'STHTTPServer', :path => '../'
+
+  target 'STHTTPServer_Tests' do
     inherit! :search_paths
+
     
   end
 end

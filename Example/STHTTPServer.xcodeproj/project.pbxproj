@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		304E43001C2DEB2DA9368B03 /* libPods-STHTTPService_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B0A7A2767D726C272C810E /* libPods-STHTTPService_Tests.a */; };
-		513BAC7CD5B47FBF12B9EB49 /* libPods-STHTTPService_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7B20F85DB8DC2195B3871A /* libPods-STHTTPService_Example.a */; };
+		41C2C72A8EF0DFF1858A9456 /* Pods_STHTTPServer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3269FF6BDEC38D79FACF91B3 /* Pods_STHTTPServer_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		F8C3A75E3D0518A42578871B /* Pods_STHTTPServer_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8EE0CFF6F3F70F04FCD83D /* Pods_STHTTPServer_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,28 +32,30 @@
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6003F589195388D20070C39A;
-			remoteInfo = STHTTPService;
+			remoteInfo = STHTTPServer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		184E3FCB8B412949BE5F0A7C /* Pods-STHTTPService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STHTTPService_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-STHTTPService_Tests/Pods-STHTTPService_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4A5E0A25007708165294D6B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		509E6940274772875293D019 /* Pods-STHTTPService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STHTTPService_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STHTTPService_Tests/Pods-STHTTPService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* STHTTPService_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STHTTPService_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		025EF162E58B25128EC1744F /* Pods-STHTTPServer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STHTTPServer_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STHTTPServer_Example/Pods-STHTTPServer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3269FF6BDEC38D79FACF91B3 /* Pods_STHTTPServer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STHTTPServer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33568BA726D25A36A0DD179E /* STHTTPServer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = STHTTPServer.podspec; path = ../STHTTPServer.podspec; sourceTree = "<group>"; };
+		46A819F34A5FFC8834FCDD2A /* Pods-STHTTPServer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STHTTPServer_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-STHTTPServer_Tests/Pods-STHTTPServer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4B8EE0CFF6F3F70F04FCD83D /* Pods_STHTTPServer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STHTTPServer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* STHTTPServer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STHTTPServer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* STHTTPService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "STHTTPService-Info.plist"; sourceTree = "<group>"; };
+		6003F595195388D20070C39A /* STHTTPServer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "STHTTPServer-Info.plist"; sourceTree = "<group>"; };
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* STHTTPService-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "STHTTPService-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* STHTTPServer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "STHTTPServer-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* STAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* STAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* STViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* STViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* STHTTPService_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STHTTPService_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* STHTTPServer_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STHTTPServer_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -61,12 +63,10 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AAD42ABA6F4FF17BF4B0DC30 /* Pods-STHTTPService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STHTTPService_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STHTTPService_Example/Pods-STHTTPService_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C3FA86697120779528A83B1B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C94A04D302CE8989DC1C33FD /* Pods-STHTTPService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STHTTPService_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-STHTTPService_Example/Pods-STHTTPService_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CF7B20F85DB8DC2195B3871A /* libPods-STHTTPService_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-STHTTPService_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D10A603236701A1B7B824643 /* STHTTPService.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = STHTTPService.podspec; path = ../STHTTPService.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F3B0A7A2767D726C272C810E /* libPods-STHTTPService_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-STHTTPService_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0E046C74465D2C54C37EB2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		944075E3D5CFB56944158B76 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B03CFD3266FFD5257B9A1F5F /* Pods-STHTTPServer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STHTTPServer_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STHTTPServer_Tests/Pods-STHTTPServer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4196774C2D4A1F702245743 /* Pods-STHTTPServer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STHTTPServer_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-STHTTPServer_Example/Pods-STHTTPServer_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				513BAC7CD5B47FBF12B9EB49 /* libPods-STHTTPService_Example.a in Frameworks */,
+				41C2C72A8EF0DFF1858A9456 /* Pods_STHTTPServer_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,30 +88,41 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				304E43001C2DEB2DA9368B03 /* libPods-STHTTPService_Tests.a in Frameworks */,
+				F8C3A75E3D0518A42578871B /* Pods_STHTTPServer_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50B1EF58EEA7169D418C8219 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				025EF162E58B25128EC1744F /* Pods-STHTTPServer_Example.debug.xcconfig */,
+				B4196774C2D4A1F702245743 /* Pods-STHTTPServer_Example.release.xcconfig */,
+				B03CFD3266FFD5257B9A1F5F /* Pods-STHTTPServer_Tests.debug.xcconfig */,
+				46A819F34A5FFC8834FCDD2A /* Pods-STHTTPServer_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* Example for STHTTPService */,
+				6003F593195388D20070C39A /* Example for STHTTPServer */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				7F9B2C72C8AA90E1CAFA4034 /* Pods */,
+				50B1EF58EEA7169D418C8219 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* STHTTPService_Example.app */,
-				6003F5AE195388D20070C39A /* STHTTPService_Tests.xctest */,
+				6003F58A195388D20070C39A /* STHTTPServer_Example.app */,
+				6003F5AE195388D20070C39A /* STHTTPServer_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,13 +134,13 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				CF7B20F85DB8DC2195B3871A /* libPods-STHTTPService_Example.a */,
-				F3B0A7A2767D726C272C810E /* libPods-STHTTPService_Tests.a */,
+				3269FF6BDEC38D79FACF91B3 /* Pods_STHTTPServer_Example.framework */,
+				4B8EE0CFF6F3F70F04FCD83D /* Pods_STHTTPServer_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6003F593195388D20070C39A /* Example for STHTTPService */ = {
+		6003F593195388D20070C39A /* Example for STHTTPServer */ = {
 			isa = PBXGroup;
 			children = (
 				6003F59C195388D20070C39A /* STAppDelegate.h */,
@@ -141,17 +152,17 @@
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
-			name = "Example for STHTTPService";
-			path = STHTTPService;
+			name = "Example for STHTTPServer";
+			path = STHTTPServer;
 			sourceTree = "<group>";
 		};
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6003F595195388D20070C39A /* STHTTPService-Info.plist */,
+				6003F595195388D20070C39A /* STHTTPServer-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* STHTTPService-Prefix.pch */,
+				6003F59B195388D20070C39A /* STHTTPServer-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -178,50 +189,40 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				D10A603236701A1B7B824643 /* STHTTPService.podspec */,
-				C3FA86697120779528A83B1B /* README.md */,
-				4A5E0A25007708165294D6B4 /* LICENSE */,
+				33568BA726D25A36A0DD179E /* STHTTPServer.podspec */,
+				8D0E046C74465D2C54C37EB2 /* README.md */,
+				944075E3D5CFB56944158B76 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		7F9B2C72C8AA90E1CAFA4034 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AAD42ABA6F4FF17BF4B0DC30 /* Pods-STHTTPService_Example.debug.xcconfig */,
-				C94A04D302CE8989DC1C33FD /* Pods-STHTTPService_Example.release.xcconfig */,
-				509E6940274772875293D019 /* Pods-STHTTPService_Tests.debug.xcconfig */,
-				184E3FCB8B412949BE5F0A7C /* Pods-STHTTPService_Tests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F589195388D20070C39A /* STHTTPService_Example */ = {
+		6003F589195388D20070C39A /* STHTTPServer_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "STHTTPService_Example" */;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "STHTTPServer_Example" */;
 			buildPhases = (
-				604191033A4EF92CB8FCC8BE /* [CP] Check Pods Manifest.lock */,
+				7FFC66C64F0E2AF8E04799B6 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				FF82B027A44DB1D34BB595B2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = STHTTPService_Example;
-			productName = STHTTPService;
-			productReference = 6003F58A195388D20070C39A /* STHTTPService_Example.app */;
+			name = STHTTPServer_Example;
+			productName = STHTTPServer;
+			productReference = 6003F58A195388D20070C39A /* STHTTPServer_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6003F5AD195388D20070C39A /* STHTTPService_Tests */ = {
+		6003F5AD195388D20070C39A /* STHTTPServer_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "STHTTPService_Tests" */;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "STHTTPServer_Tests" */;
 			buildPhases = (
-				EA8A7DB09E1BBE5F68361621 /* [CP] Check Pods Manifest.lock */,
+				2EFE772ED4B45D11F0D16E18 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -231,9 +232,9 @@
 			dependencies = (
 				6003F5B4195388D20070C39A /* PBXTargetDependency */,
 			);
-			name = STHTTPService_Tests;
-			productName = STHTTPServiceTests;
-			productReference = 6003F5AE195388D20070C39A /* STHTTPService_Tests.xctest */;
+			name = STHTTPServer_Tests;
+			productName = STHTTPServerTests;
+			productReference = 6003F5AE195388D20070C39A /* STHTTPServer_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -251,7 +252,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "STHTTPService" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "STHTTPServer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -264,8 +265,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F589195388D20070C39A /* STHTTPService_Example */,
-				6003F5AD195388D20070C39A /* STHTTPService_Tests */,
+				6003F589195388D20070C39A /* STHTTPServer_Example */,
+				6003F5AD195388D20070C39A /* STHTTPServer_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -293,40 +294,76 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		604191033A4EF92CB8FCC8BE /* [CP] Check Pods Manifest.lock */ = {
+		2EFE772ED4B45D11F0D16E18 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-STHTTPService_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-STHTTPServer_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EA8A7DB09E1BBE5F68361621 /* [CP] Check Pods Manifest.lock */ = {
+		7FFC66C64F0E2AF8E04799B6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-STHTTPService_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-STHTTPServer_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF82B027A44DB1D34BB595B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-STHTTPServer_Example/Pods-STHTTPServer_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/STHTTPServer/STHTTPServer.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/STHTTPServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STHTTPServer_Example/Pods-STHTTPServer_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -355,7 +392,7 @@
 /* Begin PBXTargetDependency section */
 		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* STHTTPService_Example */;
+			target = 6003F589195388D20070C39A /* STHTTPServer_Example */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -463,12 +500,12 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAD42ABA6F4FF17BF4B0DC30 /* Pods-STHTTPService_Example.debug.xcconfig */;
+			baseConfigurationReference = 025EF162E58B25128EC1744F /* Pods-STHTTPServer_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "STHTTPService/STHTTPService-Prefix.pch";
-				INFOPLIST_FILE = "STHTTPService/STHTTPService-Info.plist";
+				GCC_PREFIX_HEADER = "STHTTPServer/STHTTPServer-Prefix.pch";
+				INFOPLIST_FILE = "STHTTPServer/STHTTPServer-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -478,12 +515,12 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C94A04D302CE8989DC1C33FD /* Pods-STHTTPService_Example.release.xcconfig */;
+			baseConfigurationReference = B4196774C2D4A1F702245743 /* Pods-STHTTPServer_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "STHTTPService/STHTTPService-Prefix.pch";
-				INFOPLIST_FILE = "STHTTPService/STHTTPService-Info.plist";
+				GCC_PREFIX_HEADER = "STHTTPServer/STHTTPServer-Prefix.pch";
+				INFOPLIST_FILE = "STHTTPServer/STHTTPServer-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -493,7 +530,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 509E6940274772875293D019 /* Pods-STHTTPService_Tests.debug.xcconfig */;
+			baseConfigurationReference = B03CFD3266FFD5257B9A1F5F /* Pods-STHTTPServer_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -510,14 +547,14 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STHTTPService_Example.app/STHTTPService_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STHTTPServer_Example.app/STHTTPServer_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 184E3FCB8B412949BE5F0A7C /* Pods-STHTTPService_Tests.release.xcconfig */;
+			baseConfigurationReference = 46A819F34A5FFC8834FCDD2A /* Pods-STHTTPServer_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -530,7 +567,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STHTTPService_Example.app/STHTTPService_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STHTTPServer_Example.app/STHTTPServer_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -538,7 +575,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "STHTTPService" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "STHTTPServer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,
@@ -547,7 +584,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "STHTTPService_Example" */ = {
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "STHTTPServer_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,
@@ -556,7 +593,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "STHTTPService_Tests" */ = {
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "STHTTPServer_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,
