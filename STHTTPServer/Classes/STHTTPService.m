@@ -163,7 +163,7 @@ static STHTTPService *_httpService = nil;
                 dataTask = [self dataTaskWithURL:url methodType:methodType parameters:parameters success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
 #if defined(DEBUG)||defined(_DEBUG)
                     dispatch_async(dispatch_get_main_queue(), ^{
-                        NSLog(@"\nResponseObject: %@", responseObject);
+                        NSLog(@"\nURL: %@\tParameters: %@\tResponseObject: %@", url, [requestParams yy_modelToJSONString], responseObject);
                     });
 #endif
                     [[STHTTPCache sharedCache] setHttpCache:responseObject URL:url parameters:parameters];
@@ -175,7 +175,7 @@ static STHTTPService *_httpService = nil;
                 } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
 #if defined(DEBUG)||defined(_DEBUG)
                     dispatch_async(dispatch_get_main_queue(), ^{
-                        NSLog(@"\nError: %@", error);
+                        NSLog(@"\nURL: %@\tParameters: %@\tError: %@", url, [requestParams yy_modelToJSONString], error);
                     });
 #endif
                     failure ? failure(task, error) : nil;
@@ -191,7 +191,7 @@ static STHTTPService *_httpService = nil;
             dataTask = [self dataTaskWithURL:url methodType:methodType parameters:parameters success:^(NSURLSessionDataTask * _Nullable task, id  _Nullable responseObject) {
 #if defined(DEBUG)||defined(_DEBUG)
                 dispatch_async(dispatch_get_main_queue(), ^{
-                    NSLog(@"\nResponseObject: %@", responseObject);
+                    NSLog(@"\nURL: %@\tParameters: %@\tResponseObject: %@", url, [requestParams yy_modelToJSONString], responseObject);
                 });
 #endif
                 [[STHTTPCache sharedCache] setHttpCache:responseObject URL:url parameters:parameters];
@@ -208,7 +208,7 @@ static STHTTPService *_httpService = nil;
                 } else {
 #if defined(DEBUG)||defined(_DEBUG)
                     dispatch_async(dispatch_get_main_queue(), ^{
-                        NSLog(@"\nError: %@", error);
+                        NSLog(@"\nURL: %@\tParameters: %@\tError: %@", url, [requestParams yy_modelToJSONString], error);
                     });
 #endif
                     failure ? failure(task, error) : nil;
@@ -228,7 +228,7 @@ static STHTTPService *_httpService = nil;
             return [self dataTaskWithURL:url methodType:methodType parameters:parameters success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
 #if defined(DEBUG)||defined(_DEBUG)
                 dispatch_async(dispatch_get_main_queue(), ^{
-                    NSLog(@"\nResponseObject: %@", responseObject);
+                    NSLog(@"\nURL: %@\tParameters: %@\tResponseObject: %@", url, [requestParams yy_modelToJSONString], responseObject);
                 });
 #endif
                 [[STHTTPCache sharedCache] setHttpCache:responseObject URL:url parameters:parameters];
@@ -240,7 +240,7 @@ static STHTTPService *_httpService = nil;
             } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
 #if defined(DEBUG)||defined(_DEBUG)
                 dispatch_async(dispatch_get_main_queue(), ^{
-                    NSLog(@"\nError: %@", error);
+                    NSLog(@"\nURL: %@\tParameters: %@\tError: %@", url, [requestParams yy_modelToJSONString], error);
                 });
 #endif
                 failure ? failure(task, error) : nil;
@@ -255,7 +255,7 @@ static STHTTPService *_httpService = nil;
             dataTask = [self dataTaskWithURL:url methodType:methodType parameters:parameters success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
 #if defined(DEBUG)||defined(_DEBUG)
                 dispatch_async(dispatch_get_main_queue(), ^{
-                    NSLog(@"\nResponseObject: %@", responseObject);
+                    NSLog(@"\nURL: %@\tParameters: %@\tResponseObject: %@", url, [requestParams yy_modelToJSONString], responseObject);
                 });
 #endif
                 [[STHTTPCache sharedCache] setHttpCache:responseObject URL:url parameters:parameters];
@@ -267,7 +267,7 @@ static STHTTPService *_httpService = nil;
             } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
 #if defined(DEBUG)||defined(_DEBUG)
                 dispatch_async(dispatch_get_main_queue(), ^{
-                    NSLog(@"\nError: %@", error);
+                    NSLog(@"\nURL: %@\tParameters: %@\tError: %@", url, [requestParams yy_modelToJSONString], error);
                 });
 #endif
                 failure ? failure(task, error) : nil;
@@ -370,7 +370,7 @@ static STHTTPService *_httpService = nil;
         }
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
 #if defined(DEBUG)||defined(_DEBUG)
-        NSLog(@"\nResult: %@", responseObject);
+        NSLog(@"\nURL: %@\tParameters: %@\tResult: %@", url, [requestParams yy_modelToJSONString], responseObject);
 #endif
         if (success) {
             success(task, responseObject);
@@ -379,7 +379,7 @@ static STHTTPService *_httpService = nil;
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
 #if defined(DEBUG)||defined(_DEBUG)
-        NSLog(@"\nError: %@", error);
+        NSLog(@"\nURL: %@\tParameters: %@\tError: %@", url, [requestParams yy_modelToJSONString], error);
 #endif
         if (failure) {
             failure(task, error);
