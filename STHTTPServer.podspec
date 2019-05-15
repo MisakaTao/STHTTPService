@@ -34,9 +34,9 @@ TODO: Add long description of the pod here.
   s.public_header_files = 'STHTTPServer/Classes/**/*.{h}'
   
   s.frameworks = 'UIKit'
-  s.dependency 'AFNetworking', '~> 3.0.0'
-  s.dependency 'YYModel', '~> 1.0.0'
-  s.dependency 'YYCache', '~> 1.0.0'
+  s.dependency 'AFNetworking', '~> 3.0'
+  s.dependency 'YYModel', '~> 1.0'
+  s.dependency 'YYCache', '~> 1.0'
   
   # s.resource_bundles = {
   #   'STHTTPServer' => ['STHTTPServer/Assets/*.png']
