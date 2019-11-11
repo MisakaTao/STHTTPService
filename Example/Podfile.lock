@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - STHTTPServer (0.0.1):
+  - STHTTPServer (1.0.1):
     - AFNetworking
     - YYCache
     - YYModel
@@ -25,7 +25,7 @@ DEPENDENCIES:
   - STHTTPServer (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - AFNetworking
     - YYCache
     - YYModel
@@ -36,10 +36,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  STHTTPServer: 8eddc4be79912da23bb066f7171c1490a8ab13f5
+  STHTTPServer: c5a2d4440e1c191835acd50b595e5e70666c3cf1
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 080a7a7622f97d291774c69ac5be80d6136d329e
+PODFILE CHECKSUM: 1f57e1628222ba22cb13b417368ed5b0f7401397
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.4
